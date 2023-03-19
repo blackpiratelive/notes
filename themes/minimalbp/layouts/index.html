@@ -1,0 +1,28 @@
+{{- partial "head.html" . -}}
+<body>
+    {{- partial "header.html" . -}}
+    <div class="all-content">
+        <h4 class="description">{{ .Site.Params.description }}</h4>
+        <div class="posts">
+            <p class="author">Press CTRL+F to search</p>
+    <p class="author">There are currently {{ len .Site.RegularPages  }} books on this site.</p>
+                {{- range.RegularPages }}
+                {{ $cover := .Resources.GetMatch "cover.jpg" }}
+                {{ $coverResized := $cover.Fill "600x700" }}
+                {{ $coverResized := $coverResized.Resize "300x webp q10"}}
+                <div class="cover-n-title">
+                <div class="cover-img-homepage">
+                <img src="{{ $coverResized.RelPermalink }}" class="cover-img-file" alt="">
+            </div>
+            <div class="book-title">
+                    <a href="{{ .RelPermalink }}" class="homepage-blog-list">{{ .Title }}</a>
+                    <p>{{ .Summary }}</p>
+                </div>
+            </div>
+            <br>
+            {{ end -}}
+    </div>
+    {{- partial "footer.html" . -}}
+</div>
+
+<body></html>
