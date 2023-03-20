@@ -10,6 +10,11 @@
     --accent-2: rgb(255,214,10);
     --warning-clr: rgb(255,69,58);
 }
+@font-face {
+    font-family: 'icon-font';
+    src: url(fonts/lineicons.ttf) format('truetype');
+    src: url(fonts/lineicons.woff) format('woff');
+}
 @keyframes new-animation {
     0% {
         color: var(--warning-clr);
@@ -251,6 +256,8 @@ pre {
     text-decoration: none;
     margin: none;
     padding: none;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 .time-homepage {
     font-weight: 700;
@@ -289,4 +296,9 @@ pre {
 }
 .img-link {
     text-decoration: none;
+}
+.icon-1 {
+    margin: 0;
+    padding: 0;
+    display: inline;
 }
