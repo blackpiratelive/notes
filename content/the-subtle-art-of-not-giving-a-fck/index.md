@@ -1,11 +1,12 @@
 ---
-title: "The Subtle Art of Not Giving a Fuck - Book Highlights"
+title: "The Subtle Art of Not Giving a Fuck"
 date: 2021-11-29T21:11:39+05:30
-tags: [book, non fiction, book highlights]
+tags: [non fiction, self-help]
 finishedon: 2021-11-29T21:11:39+05:30
 bookauthor: "Mark Manson"
 book: true
 ---
+## Book Highlights
 - See, despite the book sales and the fame, Bukowski was a loser. He knew it. And his success stemmed not from some determination to be a winner, but from the fact that he knew he was a loser, accepted it, and then wrote honestly about it. He never tried to be anything other than what he was. The genius in Bukowski’s work was not in overcoming unbelievable odds or developing himself into a shining literary light. It was the opposite. It was his simple ability to be completely, unflinchingly honest with himself—especially the worst parts of himself—and to share his failings without hesitation or doubt.
 
 

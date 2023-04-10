@@ -1,12 +1,12 @@
 ---
-title: "Call Me by Your Name - Book Highlights"
+title: "Call Me by Your Name"
 date: 2021-11-14T19:54:37+05:30
-tags: [book, book highlights, fiction]
+tags: [fiction, romance, lgbtq]
 bookauthor: "André Aciman"
 finishedon: 2021-11-14T19:54:37+05:30
 book: true
 ---
-
+## Book Highlights
 - But it might have started way later than I think without my noticing anything at all. You see someone, but you don’t really see him, he’s in the wings. Or you notice him, but nothing clicks, nothing “catches,” and before you’re even aware of a presence, or of something troubling you, the six weeks that were offered you have almost passed and he’s either already gone or just about to leave, and you’re basically scrambling to come to terms with something, which, unbeknownst to you, has been brewing for weeks under your very nose and bears all the symptoms of what you’re forced to call I want. How couldn’t I have known, you ask? I know desire when I see it—and yet, this time, it slipped by completely. I was going for the devious smile that would suddenly light up his face each time he’d read my mind, when all I really wanted was skin, just skin.
 
 

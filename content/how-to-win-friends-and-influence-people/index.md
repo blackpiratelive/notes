@@ -1,11 +1,12 @@
 ---
-title: "How to Win Friends and Influence People - Book Highlights & Notes"
+title: "How to Win Friends and Influence People"
 date: 2022-06-26T14:56:43+05:30
-tags: [book, book highlights, non fiction, book notes]
+tags: [non fiction, self-help]
 finishedon: 2022-06-26T14:56:43+05:30
 bookauthor: Dale Carnegie
 book: true
 ---
+## Book Highlights
 - ninety-nine times out of a hundred, people don’t criticise themselves for anything no matter how wrong it may be.
 
 

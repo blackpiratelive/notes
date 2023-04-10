@@ -3,6 +3,7 @@ title: "A Wild Sheep Chase"
 date: 2022-12-14T17:18:56+05:30
 finishedon: 2022-12-14T20:50:15+05:30
 bookauthor: Haruki Murakami
+tags: [fiction, magical-realism]
 ---
 ## Book Highlights 
 

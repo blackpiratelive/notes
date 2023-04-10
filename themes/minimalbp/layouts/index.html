@@ -12,7 +12,7 @@
                 {{ $coverResized := $coverResized.Resize "300x webp q10"}}
                 <div class="cover-n-title">
                 <div class="cover-img-homepage">
-                <img src="{{ $coverResized.RelPermalink }}" class="cover-img-file" alt="">
+                <img src="{{ $coverResized.RelPermalink }}" class="cover-img-file" alt="" loading="lazy">
             </div>
             <div class="book-title">
                     <a href="{{ .RelPermalink }}" class="homepage-blog-list frontpage-book-title">{{ .Title }} <i class="lni lni-arrow-right-circle icon-1"></i></a>

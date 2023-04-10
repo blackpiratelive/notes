@@ -1,11 +1,12 @@
 ---
-title: "Normal People - Book Highlights"
+title: "Normal People"
 date: 2021-08-12T20:38:00+05:30
-tags: [book, book highlights, fiction]
+tags: [fiction, romance, drama]
 book: true
 bookauthor: "Sally Rooney"
 finishedon: 2021-08-12T20:38:00+05:30
 ---
+## Book Highlights
 - When he talks to Marianne he has a sense of total privacy between them. He could tell her anything about himself, even weird things, and she would never repeat them, he knows that. Being alone with her is like opening a door away from normal life and then closing it behind him.
 
 

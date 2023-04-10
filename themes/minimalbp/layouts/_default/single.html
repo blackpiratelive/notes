@@ -4,16 +4,21 @@
 
     <h1 class="post-title">{{ .Title }}</h1>
     {{ if isset .Params "bookauthor" }}
-    <h3 class="bookauthor">{{ .Params.bookauthor }}</h3>
+    <p class="bookauthor">{{ .Params.bookauthor }}</p>
     {{ end }}
     {{ if isset .Params "finishedon" }}
-    <h3 class="bookauthor"> Finished on {{ .Date.Format "January 02, 2006" }}</h3>
+    <p class="bookauthor"> Finished on {{ .Date.Format "January 02, 2006" }}</p>
     {{ end }}
     {{ if (isset .Params "book") }}
     {{ else }}
     {{ end }}
+    <hr>
     {{ .Content }}
-    <p class="author"><a href="https://github.com/blackpiratelive/blog/blob/main/content/{{ .File.BaseFileName }}.{{ .File.Ext }}">edit this page</a></p>
+    <hr>
+    <h4>Comment</h4>
+        <p>You can send me your comments by email at comments(at)blackpiratex.com</p>
+    </details>
+    <p class="author">Something needs a fix? <a href="https://github.com/blackpiratelive/blog/blob/main/content/{{ .File.BaseFileName }}.{{ .File.Ext }}">edit this page.</a></p>
     {{ if isset .Params "tags" }}
     <p class="author">
         This post is tagged with:

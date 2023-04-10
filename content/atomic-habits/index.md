@@ -1,11 +1,12 @@
 ---
-title: "Atomic Habits - Book Highlights"
+title: "Atomic Habits"
 date: 2022-01-11T20:50:15+05:30
-tags: [book, book highlights, non fiction]
+tags: [non fiction, self-help]
 finishedon: 2022-01-11T20:50:15+05:30
 bookauthor: James Clear
 book: true
 ---
+## Book Highlights
 - A habit is a routine or behavior that is performed regularly—and, in many cases, automatically.
 
 

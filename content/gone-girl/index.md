@@ -1,11 +1,12 @@
 ---
-title: "Gone Girl - Book Highlights"
+title: "Gone Girl"
 date: 2022-02-25T14:33:56+05:30
-tags: [book, book highlights, fiction]
+tags: [fiction, crime, drama]
 finishedon: 2022-02-25T14:33:56+05:30
 bookauthor: Gillian Flynn
 book: true
 ---
+## Book Hightlights
 - A nearby clown blew up a balloon animal, a man bought a rose, a child licked an ice cream cone, and a genuine tradition was born, one I’d never forget: Amy always going overboard, me never, ever worthy of the effort. Happy anniversary, asshole.
 
 

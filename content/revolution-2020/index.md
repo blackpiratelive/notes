@@ -1,32 +1,18 @@
 ---
-title: "Revolution 2020 - Book Highlights"
+title: "Revolution 2020"
 date: 2021-08-19T20:31:26+05:30
-tags: [book, fiction, book highlights]
+tags: [fiction, romance, drama]
 bookauthor: "Chetan Bhagat"
 book: true
 ---
-
+## Book Highlights
 - paternal love obviously overestimating progeny’s abilities.
-
-
 - Anybody with experience in a shady business does really well in education,’
-
-
 - I fell facedown and landed on a wooden table covered in a white sheet. It had a protruding nail that cut my cheek. Blood covered one side of my face. Sweat drops appeared on my forehead. I had finally given my blood and sweat to studies.
-
-
 - My thoughts went to our media strategy, then to Raghav, and from there to Aarti. It is amazing how the brain will connect one thought to another until it gets to where it wants to be.
-
-
 - ‘Fine,’ she said. ‘Fine’ means somewhere between ‘whatever’ and go to hell’ in Girlese.
-
-
 - Aarti got out of the car upon spotting me. ‘I am so so so sorry,’ she said. Are the prayers over?’‘Can the prayers ever be over without Aarti?’ I said.
-
-
 - ‘Most people who own colleges in India haven’t. Stupid people go to college. Smart people own them,’
-
-
 - That’s what human relationships are about - selective sharing and hiding of information to the point of crazy confusion.
 
 
