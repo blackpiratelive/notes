@@ -18,7 +18,7 @@
     <h4>Comment</h4>
         <p>You can send me your comments by email at comments(at)blackpiratex.com</p>
     </details>
-    <p class="author">Something needs a fix? <a href="https://github.com/blackpiratelive/notes/tree/main/content">edit this page.</a></p>
+    <p class="author">Something needs a fix? <a href="https://github.com/blackpiratelive/notes/tree/main/content/{{ .File.Path }}">edit this page.</a></p>
     {{ if isset .Params "tags" }}
     <p class="author">
         This post is tagged with:
