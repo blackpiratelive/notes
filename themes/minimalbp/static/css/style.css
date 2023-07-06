@@ -1,15 +1,4 @@
-:root {
-    --accent: #3E54AC;
-    --accent-low-opacity: rgba(223,223,225, 0.25);
-    --text-clr: black;
-    --background-clr: white;
-    --tob-bg: white;
-    --accent-black-bg: rgb(10,132, 255);
-    --code-background-color: #272822;
-    --accent-clr-hvr: grey;
-    --accent-2: rgb(255,214,10);
-    --warning-clr: rgb(255,69,58);
-}
+
 @font-face {
     font-family: 'icon-font';
     src: url(fonts/lineicons.ttf) format('truetype');
@@ -38,12 +27,12 @@
     }
 }
 body {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     background-color: var(--background-clr);
     color: var(--text-clr);
     margin: 0;
     padding: 0;
-    font-family:'Times New Roman', serif;
+    font-family: sans-serif;
 }
 .bookauthor {
     text-align: center;
@@ -90,7 +79,6 @@ h6 {
 }
 .footer {
     margin: auto;
-    color: var(--text-clr);
     margin-bottom: 2rem;
     width: 50%;
     font-size: 1rem;
@@ -100,12 +88,13 @@ h6 {
         width: 75%;
     }
 }
+
+header {
+    background-color: var(--header-bg);
+}
 .footer p {
     text-align: center;
     margin: 0;
-}
-.footer > p > a {
-    color: var(--accent);
 }
 .all-content {
     max-width: 900px;
@@ -123,7 +112,7 @@ a {
     color: var(--accent);
     text-decoration: underline;
     text-underline-offset: 2px;
-    font-family: 'Times New Roman', serif;
+    font-family: sans-serif;
     padding: 0.25rem;
     white-space: pre-wrap; /* CSS3 */    
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
@@ -145,24 +134,12 @@ a:hover {
 
 .nav-bar {
     display: flex;
-    background-color: var(--accent);
     justify-content: center;
-    gap: 0.75rem;
+    gap: 0.25rem;
     flex-wrap: wrap;
     margin-top: 0rem;
     padding: 1rem;
     top: 0;
-}
-.nav-item > a {
-    color: var(--background-clr);
-    font-weight: 700;
-    font-family: sans-serif;
-}
-.nav-item > a:hover {
-    background-color: var(--background-clr);
-    color: var(--accent);
-    text-decoration: none;
-    text-shadow: none;
 }
 img {
    width: clamp(50%, 300px, 100%);
@@ -296,4 +273,29 @@ pre {
 }
 .img-link {
     text-decoration: none;
+}
+button {
+    background-color: var(--accent);
+    border: none;
+    color: var(--text-on-accent);
+    padding: var(--btn-padding);
+    border-radius: var(--brdr-radius);
+    font-size: 1.3rem;
+}
+@media (prefers-color-scheme: dark) {
+    body,
+    .all-content {
+        background-color: var(--dark-bg-clr);
+        color: var(--dark-txt-clr);
+    }
+    a{
+        color: var(--dark-accent);
+    }
+    header {
+        background-color: var(--dark-header-bg);
+    }
+    .blog-content > p:first-of-type::first-letter,
+    .main-heading {
+        color: var(--dark-accent);
+    }
 }
