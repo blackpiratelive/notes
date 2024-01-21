@@ -13,6 +13,12 @@
     {{ else }}
     {{ end }}
     <hr>
+    {{ $cover := .Resources.GetMatch "cover.jpg" }}
+    {{ $image := $cover.Resize "x400 webp" }}
+                <div class="cover-n-title">
+                <div class="cover-img-homepage">
+                <img src="{{ $image.RelPermalink }}" class="cover-img-file" alt="" loading="lazy">
+            </div>
     <div class="blog-content">{{ .Content }}</div>
     <hr>
     <h4>Comment</h4>
