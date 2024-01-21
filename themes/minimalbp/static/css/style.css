@@ -299,3 +299,19 @@ button {
         color: var(--dark-accent);
     }
 }
+
+.cover-n-title-blogpage {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.cover-img-blogpage {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 1rem black;
+}

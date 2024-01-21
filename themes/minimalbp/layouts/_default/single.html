@@ -1,8 +1,38 @@
-{{- partial "head.html" . -}}
+<head>
+    <style>
+        {{ $cover := .Resources.GetMatch "cover.jpg" }}
+        {{ $image2 := $cover.Process "resize 100x q10" }}
+    
+    {{ $colors := $image2.Colors }}
+    {{ range $i, $color := $colors }}
+    :root {
+        --color-{{ $i }}: {{ $color }};
+    }
+{{ end }}
+ #heading {
+    color: var(--color-0);
+    background-color: var(--color-1);
+ }
+ #image-bg {
+    width: 75%;
+    background-color: var(--color-0);
+ }
+
+ .image-post-page {
+    margin: auto;
+ }
+ .cover-n-title-blogpage {
+    background: linear-gradient(to right, var(--color-0), var(--color-1), var(--color-0));
+ }
+    </style>
+    {{- partial "head.html" . -}}
+</head>
+
+
 {{- partial "header.html" . -}}
 <div class="all-content">
 
-    <h1 class="post-title">{{ .Title }}</h1>
+    <h1 class="post-title" id="heading">{{ .Title }}</h1>
     {{ if isset .Params "bookauthor" }}
     <p class="bookauthor">{{ .Params.bookauthor }}</p>
     {{ end }}
@@ -14,11 +44,12 @@
     {{ end }}
     <hr>
     {{ $cover := .Resources.GetMatch "cover.jpg" }}
-    {{ $image := $cover.Resize "x400 webp" }}
-                <div class="cover-n-title">
-                <div class="cover-img-homepage">
-                <img src="{{ $image.RelPermalink }}" class="cover-img-file" alt="" loading="lazy">
+    {{ $image := $cover.Process "resize 600x" }}
+                <div class="cover-n-title-blogpage">
+                <div class="cover-img-homepage cover-img-blogpage">
+                <img src="{{ $image.RelPermalink }}" class="cover-img-file image-post-page" alt="" loading="lazy">
             </div>
+                </div>
     <div class="blog-content">{{ .Content }}</div>
     <hr>
     <h4>Comment</h4>
